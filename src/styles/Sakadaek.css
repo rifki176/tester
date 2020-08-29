@@ -98,7 +98,7 @@ opacity: 0;
 }
 
 .text-6 {
-    animation: blink 0.8s  !important;
+    animation: blink 8ms linear 4ms, blink 8ms linear 2.5s, slide-out 1s linear 3.2s !important;
     opacity: 0;
     
 }
