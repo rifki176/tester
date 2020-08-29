@@ -98,8 +98,8 @@ opacity: 0;
 }
 
 .text-6 {
-    animation: blink 0.8s linear 0.4s, blink 0.8s linear 2.5s, slide-out 1s linear 3.2s !important;
-    opacity: 0;
+    animation-name: blink 0.8s linear 0.4s, blink 0.8s linear 2.5s, slide-out 1s linear 3.2s !important;
+    opacity: 1;
 }
 .text-7 {
     animation: blink 0.8s linear 0.5s, blink 0.8s linear 2.4s !important; 
@@ -123,7 +123,7 @@ opacity: 0;
     
    
 .text-11 {
-    animation: blink 0.8s linear 0.9s, blink 0.8s linear 2s !important;
+    animation-name: blink 0.8s linear 0.9s, blink 0.8s linear 2s !important;
     opacity: 0;
     -webkit-text-stroke:1px rgb(0, 38, 255) !important;
 
