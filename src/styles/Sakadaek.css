@@ -68,6 +68,7 @@
 }
 .text-1{
     animation: blink 0.8s, linear 0.9s blink 0.8s, linear 0.2s !important;
+    -webkit-animation: blink 0.8s, linear 0.9s blink 0.8s, linear 0.2s;
 opacity: 0;
 -webkit-text-stroke:1px rgb(0, 38, 255) !important;
 }
