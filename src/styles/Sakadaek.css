@@ -1,4 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@keyframes blink {
+    0% {
+        opacity: 0%;
+    }
+    1% {
+        opacity: 100%;
+    }
+    99% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0;
+    }
+
+}
+@keyframes slide-out{
+
+    0%{
+        opacity: 0;font-size: 70px;
+    }
+    1%{
+        opacity: 100%;font-size: 70px;color: red;
+    }
+    19%{
+        opacity: 100%;font-size: 70px;color: red;
+    }
+    20%{
+        opacity: 0;font-size: 70px;
+    }
+    39%{
+        opacity: 0;font-size: 70px;
+    }
+    40%{
+        opacity: 100%;font-size: 70px;color: red;
+    }
+    59%{
+        opacity: 100%;font-size: 70px;color: red;
+        
+    }
+    60%{
+        opacity: 0;font-size: 70px;
+        
+    }
+    79%{
+        opacity: 0;font-size: 70px;
+        
+    }
+    80%{
+        opacity: 100%;font-size: 70px;color: red;
+        
+    }
+    100%{
+        opacity: 100%;font-size: 70px;color: red;
+        
+    }
+
+}
+
+@keyframes slide-out-container{
+    0%{
+        height: 100vh;
+    }
+    40%{
+        height: 100vh;
+    }
+    100%{
+        height: 0vh;
+    }
+}
 .awak{
     margin: 0;
     padding: 0;
@@ -51,21 +120,7 @@
     color: rgba(0, 0, 0, 0);
     -webkit-text-stroke:1px white ;
 }
-@keyframes blink {
-    0% {
-        opacity: 0%;
-    }
-    1% {
-        opacity: 100%;
-    }
-    99% {
-        opacity: 100%;
-    }
-    100% {
-        opacity: 0;
-    }
 
-}
 .text-1{
     animation: blink 0.8s, linear 0.9s blink 0.8s, linear 0.2s !important;
     -webkit-animation: blink 0.8s, linear 0.9s blink 0.8s, linear 0.2s;
@@ -128,58 +183,4 @@ opacity: 0;
     opacity: 0;
     -webkit-text-stroke:1px rgb(0, 38, 255) !important;
 
-}
-@keyframes slide-out{
-
-    0%{
-        opacity: 0;font-size: 70px;
-    }
-    1%{
-        opacity: 100%;font-size: 70px;color: red;
-    }
-    19%{
-        opacity: 100%;font-size: 70px;color: red;
-    }
-    20%{
-        opacity: 0;font-size: 70px;
-    }
-    39%{
-        opacity: 0;font-size: 70px;
-    }
-    40%{
-        opacity: 100%;font-size: 70px;color: red;
-    }
-    59%{
-        opacity: 100%;font-size: 70px;color: red;
-        
-    }
-    60%{
-        opacity: 0;font-size: 70px;
-        
-    }
-    79%{
-        opacity: 0;font-size: 70px;
-        
-    }
-    80%{
-        opacity: 100%;font-size: 70px;color: red;
-        
-    }
-    100%{
-        opacity: 100%;font-size: 70px;color: red;
-        
-    }
-
-}
-
-@keyframes slide-out-container{
-    0%{
-        height: 100vh;
-    }
-    40%{
-        height: 100vh;
-    }
-    100%{
-        height: 0vh;
-    }
 }
