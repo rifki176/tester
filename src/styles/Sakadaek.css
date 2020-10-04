@@ -118,7 +118,7 @@
 }
 .text-1, .text-3, .text-4, .text-8, .text-9, .text-11{
     color: rgba(0, 0, 0, 0);
-    -webkit-text-stroke:1px white ;
+    -webkit-text-stroke:3px white ;
 }
 
 .text-1{
@@ -134,65 +134,64 @@
     
     animation: blink 0.8s linear 0.8s, blink 0.8s linear 2.1s !important;
    
-  
     color: rgb(6, 140, 250);
 }
 
 .text-3 {
     
     animation: blink 0.8s linear 0.7s, blink 0.8s linear 2.2s !important;
-    opacity: 0;
+    
     -webkit-text-stroke:1px rgb(62, 248, 93) !important;
 }
 
 .text-4 {
     
     animation: blink 0.8s linear 0.6s, blink 0.8s linear 2.3s !important;
-    opacity: 0;
+   
     -webkit-text-stroke:1px rgb(229, 255, 0) !important;
 }
 
 .text-5 {
     
     animation: blink 0.8s linear 0.5s, blink 0.8s linear 2.4s !important;
-    opacity: 0;
+    
     -webkit-text-stroke:1px rgb(0, 174, 255) !important;
 }
 
 .text-6 {
     
     animation: blink 8ms linear 4ms, blink 8ms linear 2.5s, slide-out 1s linear 3.2s !important;
-    opacity: 0;
+   
     
 }
 .text-7 {
     
     animation: blink 0.8s linear 0.5s, blink 0.8s linear 2.4s !important; 
-    opacity: 0;
+    
 }
 .text-8 {
     
     animation: blink 0.8s linear 0.6s, blink 0.8s linear 2.3s !important;
-    opacity: 0;
+    
     -webkit-text-stroke:1px rgb(229, 255, 0) !important;
 }
 .text-9 {
     
     animation: blink 0.8s linear 0.7s, blink 0.8s linear 2.2s !important;
-    opacity: 0;
+    
     -webkit-text-stroke:1px rgb(62, 248, 93) !important;
 }
 .text-10 {
     
     animation: blink 0.8s linear 0.8s, blink 0.8s linear 2.1s !important;
-    opacity: 0;
+    
     
 }
     
    
 .text-11 {
     animation-name: blink 0.8s linear 0.9s, blink 0.8s linear 2s !important;
-    opacity: 0;
+    
     -webkit-text-stroke:1px rgb(0, 38, 255) !important;
 
 }
